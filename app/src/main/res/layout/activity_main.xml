@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.dbdemo.databasedemo.MainActivity">
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:text="1) There are two Buttons. On pressing of Download you will be able to download all the files\n
+ 2) The download is on Async Task. So you have to wait until it finish.
+
+ 3) On pressing of see files you will be able to see the downloaded files \n
+ 4) The execution time will be displayed in a text box below the buttons"/>
+
+<Button
+    android:id="@+id/button_instr_page"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/colorPrimary"
+    android:text="Test the app"
+    android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
